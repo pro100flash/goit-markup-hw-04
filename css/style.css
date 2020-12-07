@@ -72,7 +72,7 @@ a {
 }   
 .nav-contacts {
     display: flex;
-    margin-left: 305px;
+    margin-left: auto;
     font-style: normal;
     padding: 0px;
     padding-top: 32px;
@@ -84,7 +84,11 @@ a {
     margin-right: 50px;
 }
 .ul-fix {
-    
+    display: flex;
+    align-items: center;
+}
+.nav-contacts .icon {
+    margin-right: 10px;
 }
 
 

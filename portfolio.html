@@ -13,7 +13,6 @@
     <header id="header">
         <!--Навигация-->
 <div class="main-container">
-<div class="nav-container">
     <nav class="nav-list">
         <a href="./index.html"> <img class="logo" src="./images/logo.svg" alt="logo"> </a>
 
@@ -24,11 +23,22 @@
         </ul>
         <!--Контакты-->
         <ul class="nav-contacts">
-            <li> <a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li> <a href="tel:+380961111111">+38 096 111 11 11 </a></li>
+            <li> <a href="mailto:info@devstudio.com" class="ul-fix">
+                    <svg class="icon" width="16" height="12">
+                        <use href="./images/icons/icons-sprite.svg#icon-mail"> </use>
+                    </svg>
+                    info@devstudio.com
+                </a>
+            </li>
+            <li> <a href="tel:+380961111111" class="ul-fix">
+                <svg class="icon" width="10" height="16"> 
+                <use href="./images/icons/icons-sprite.svg#icon-smartphone"> </use>
+            </svg>
+            +38 096 111 11 11 
+            </a>
+        </li>
         </ul>
     </nav>
-</div>
 </div>
 </header>
     <main>
