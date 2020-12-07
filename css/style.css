@@ -113,7 +113,6 @@ a {
 .fix-txt {
     display: flex;
     justify-content: space-between;
-    height: 101px
 }
 
 .fix-txt li {
@@ -132,6 +131,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     padding-top: 30px;
+    padding-bottom: 10px;
 }
 .fix-txt p {
     color: var(--secondary-text-color);
@@ -149,19 +149,19 @@ a {
     background-color:#F5F4FA;
 }
 .icon-antena::before {
-    background-image: url(../images/1\ antenna.svg);
+    background-image: url(../images/icons/1\ antenna.svg);
     background-size: 72px
 }
 .icon-clock::before {
-    background-image: url(../images/2\ clock.svg);
+    background-image: url(../images/icons/2\ clock.svg);
     background-size: 72px
 }
 .icon-diagram::before {
-    background-image: url(../images/3\ diagram.svg);
+    background-image: url(../images/icons/3\ diagram.svg);
     background-size: 72px
 }
 .icon-astronaut::before {
-    background-image: url(../images/4\ astronaut.svg);
+    background-image: url(../images/icons/4\ astronaut.svg);
     background-size: 72px
 }
 
@@ -185,7 +185,6 @@ a {
     letter-spacing: 0.03em;
     text-align: center;
     padding-bottom: 50px;
-    padding-top: 94px;
 
 }
 
@@ -251,6 +250,18 @@ a {
 
 
 
+
+/*СЕКЦИЯ 5*/
+.section-five {
+
+}
+.clients-container {
+
+}
+
+
+
+
 /*PORTFOLIO*/
 
 
@@ -276,10 +287,10 @@ a {
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
 }
-.portfolio-ul li:nth-child(3n){
+.portfolio-ul li:nth-child(3n) {
     margin-right: 0px;
 }
-.portfolio-ul li:nth-last-child(-n + 3){
+.portfolio-ul li:nth-last-child(-n + 3) {
     margin-bottom: 0px;
 }
 .portfolio-ul h2 {
@@ -303,22 +314,24 @@ a {
     margin-bottom: 20px;
 }
 
+
 /* Низ страницы */
 #footer {
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.nav-footer li:not(:first-child) 
-{   font-style: normal;
+.nav-footer {
+    font-style: unset;
+    width: 231px;
+}
+.nav-footer li:not(:first-child) {
+    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
 
-}
-.footer-contacts {
-    padding-top: 20px;
 }
 .adress {
     color: var(--full-white);
@@ -327,6 +340,59 @@ a {
     line-height: 24px;
     letter-spacing: 0.03em;
 }
+.logo-two{
+    margin-bottom: 20px;
+}
+.flex-footer {
+    display: flex;
+}
+.social {
+    margin-left: 70px;
+
+}
+.social h4 {
+    padding-bottom: 20px;
+    color: var(--full-white);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+
+}
+.social-links li {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.social-links li:not(:last-child) {
+    margin-right: 10px;
+}
+.social-links li:hover {
+    background-color:  var(--accent-button-color);
+}
+.inst {
+    background-image: url(../images/icons/instagram\ 2.svg);
+}
+.twi {
+    background-image: url(../images/icons/twitter.svg);
+}
+.fb {
+    background-image: url(../images/icons/facebook.svg);
+}
+.link {
+    background-image: url(../images/icons/linkedin.svg);
+}
+
+
 
 
     /* Плюшки */
@@ -334,7 +400,7 @@ a {
         width: 1170px;
         margin-left: auto;
         margin-right: auto;
-    }
+}
 .main-container h1 {
     color: var(--full-white);
     font-weight: 900;
@@ -342,7 +408,6 @@ a {
     line-height: 1.3;
     margin: 0px;
     padding-bottom: 30px;
-
 }
 
 
