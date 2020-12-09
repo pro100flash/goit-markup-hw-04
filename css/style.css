@@ -345,7 +345,7 @@ a {
     flex-wrap: wrap;
 }
 .portfolio-ul {
-    padding-top: 50px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
 }
